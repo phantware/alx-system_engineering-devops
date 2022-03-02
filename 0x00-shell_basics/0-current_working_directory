@@ -1,6 +1,5 @@
 #!/bin/bash
-pwd 
-$'\n'
+echo "$pwd"
 
 
 
