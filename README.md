@@ -23,7 +23,7 @@ All of the following folders are projects done during the studies:
 | [`0x0D-web_stack_debugging_0`](https://github.com/phantware/alx-system_engineering-devops/tree/master/0x0D-web_stack_debugging_0) | It aims to learn about how to debug a webstack |
 
 ## Author :
-* **[Suara Ayomide](https://twitter.com/Aysuarex)** <[phantware](https://github.com/phantware)>
+* **[Jamiu Ismail](https://twitter.com/IsmailJamiuBab1)** <[phantware](https://github.com/phantware)>
 
 ## Acknowledgements :pray:
 
