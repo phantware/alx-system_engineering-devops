@@ -7,4 +7,4 @@ newst2="\tlisten \[::\]:80 default_server ipv4only=on"
 sudo sed -i "0,/$st/{s/$st/$newst/}" /etc/nginx/sites-enabled/default
 sudo sed -i "0,/$st2/{s/$st2/$newst2/}" /etc/nginx/sites-enabled/default
 sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
-sudo s
+sudo service nginx start
