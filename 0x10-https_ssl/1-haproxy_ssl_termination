@@ -33,20 +33,20 @@ defaults
 	errorfile 503 /etc/haproxy/errors/503.http
 	errorfile 504 /etc/haproxy/errors/504.http
 
-# start of parameters for beta-scribbles.tech
-frontend betascribbles.tech-http-frontend
+# start of parameters for phantware.tech
+frontend phantware.tech-http-frontend
 	bind	 *:80
 	http-request set-header X-Forwarded-Proto http
-	default_backend	 beta-scribbles.tech-backend
+	default_backend	 phantware.tech-backend
 
 
-frontend  beta-scribbles.tech-https-frontend
-	bind *:443 ssl crt /etc/ssl/beta-scribbles.tech.pem
+frontend  phantware.tech-https-frontend
+	bind *:443 ssl crt /etc/ssl/phantware.tech.pem
 	http-request set-header X-Forwarded-Proto https
-        default_backend beta-scribbles.tech-backend
+        default_backend phantware.tech-backend
 
 
-backend beta-scribbles.tech-backend
+backend phantware.tech-backend
         balance roundrobin
         server 8834-web-01 34.231.110.240:80 check
         server 8834-web-02 3.237.3.86:80 check
